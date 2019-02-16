@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Is Start and trying to load every thing]]>
+    </line>
+    <line>
+      <![CDATA[Test Is Start and trying to load every thing is done]]>
+    </line>
+    <line>
+      <![CDATA[Browser trying to start]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched Done]]>
+    </line>
+    <line>
+      <![CDATA[End of the Execution]]>
+    </line>
+    <line>
+      <![CDATA[Execution is done ....>> Check The Reports of HTML]]>
+    </line>
+    <line>
+      <![CDATA[End of the Execution]]>
+    </line>
+    <line>
+      <![CDATA[Execution is done ....>> Check The Reports of HTML]]>
+    </line>
+    <line>
+      <![CDATA[Trying to close window]]>
+    </line>
+    <line>
+      <![CDATA[Window is closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15923" started-at="2019-02-16T19:31:31Z" finished-at="2019-02-16T19:31:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15923" started-at="2019-02-16T19:31:31Z" finished-at="2019-02-16T19:31:47Z">
+      <class name="com.testcases.Projectlogin">
+        <test-method status="PASS" signature="Excelload()[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="Excelload" is-config="true" duration-ms="811" started-at="2019-02-17T01:01:30Z" finished-at="2019-02-17T01:01:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Is Start and trying to load every thing]]>
+            </line>
+            <line>
+              <![CDATA[Test Is Start and trying to load every thing is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Excelload -->
+        <test-method status="PASS" signature="intialexecution()[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="intialexecution" is-config="true" duration-ms="6308" started-at="2019-02-17T01:01:31Z" finished-at="2019-02-17T01:01:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser trying to start]]>
+            </line>
+            <line>
+              <![CDATA[Browser is launched Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- intialexecution -->
+        <test-method status="PASS" signature="pageLogin()[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="pageLogin" duration-ms="2806" started-at="2019-02-17T01:01:37Z" finished-at="2019-02-17T01:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLogin -->
+        <test-method status="PASS" signature="getscreenshot(org.testng.ITestResult)[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="getscreenshot" is-config="true" duration-ms="1050" started-at="2019-02-17T01:01:40Z" finished-at="2019-02-17T01:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageLogin status=SUCCESS method=Projectlogin.pageLogin()[pri:0, instance:com.testcases.Projectlogin@2b98378d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[End of the Execution]]>
+            </line>
+            <line>
+              <![CDATA[Execution is done ....>> Check The Reports of HTML]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getscreenshot -->
+        <test-method status="PASS" signature="Applyleave()[pri:1, instance:com.testcases.Projectlogin@2b98378d]" name="Applyleave" duration-ms="4791" started-at="2019-02-17T01:01:41Z" finished-at="2019-02-17T01:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applyleave -->
+        <test-method status="PASS" signature="getscreenshot(org.testng.ITestResult)[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="getscreenshot" is-config="true" duration-ms="803" started-at="2019-02-17T01:01:46Z" finished-at="2019-02-17T01:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Applyleave status=SUCCESS method=Projectlogin.Applyleave()[pri:1, instance:com.testcases.Projectlogin@2b98378d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[End of the Execution]]>
+            </line>
+            <line>
+              <![CDATA[Execution is done ....>> Check The Reports of HTML]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getscreenshot -->
+        <test-method status="PASS" signature="EndExecution()[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="EndExecution" is-config="true" duration-ms="131" started-at="2019-02-17T01:01:47Z" finished-at="2019-02-17T01:01:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to close window]]>
+            </line>
+            <line>
+              <![CDATA[Window is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EndExecution -->
+      </class> <!-- com.testcases.Projectlogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.testcases.Projectlogin">
         <methods>
           <include name="intialexecution"/>
           <include name="getscreenshot"/>
+          <include name="pageLogin"/>
           <include name="creationofmanifest"/>
           <include name="Excelload"/>
         </methods>
       </class> <!-- com.testcases.Projectlogin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

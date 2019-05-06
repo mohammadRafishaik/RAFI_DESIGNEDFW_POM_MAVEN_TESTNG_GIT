@@ -19,13 +19,13 @@ static WebDriver driver;
 		
 		if(browserName.equals("Chrome")) 
 		{
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\TT089\\Downloads\\drivers\\chromedriver_win32\\chromedriver.exe");
 			driver=new ChromeDriver();
 			
 		}
 		else if(browserName.equals("Firefox"))
 		{
-			System.setProperty("webdriver.gicko.driver", "C:\\Users\\TT089\\eclipse-workspace\\SeleniumFWPOMMJGTNG\\SeleniumFW\\Drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gicko.driver",  "C:\\Users\\TT089\\eclipse-workspace\\SeleniumFWPOMMJGTNG\\SeleniumFW\\Drivers\\geckodriver.exe");
 			driver=new FirefoxDriver();
 		}
 		else if(browserName.equals("IE"))
@@ -48,12 +48,6 @@ static WebDriver driver;
 		
 		
 	}
-	public static void scr(String name) {
-		TakesScreenshot ts=(TakesScreenshot)driver;
-		File source=ts.getScreenshotAs(OutputType.FILE);
-		File Destination=new File("C:\\Users\\TT089\\eclipse-workspace\\SeleniumFWPOMMJGTNG\\SeleniumFW\\Screenshots\\+name+\\.png");
-		
 	
-	}
 	
 }

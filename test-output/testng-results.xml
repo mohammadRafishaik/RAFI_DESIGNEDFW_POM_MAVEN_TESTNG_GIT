@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Test Is Start and trying to load every thing]]>
@@ -25,19 +25,13 @@
     <line>
       <![CDATA[Execution is done ....>> Check The Reports of HTML]]>
     </line>
-    <line>
-      <![CDATA[Trying to close window]]>
-    </line>
-    <line>
-      <![CDATA[Window is closed]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15923" started-at="2019-02-16T19:31:31Z" finished-at="2019-02-16T19:31:47Z">
+  <suite name="Default suite" duration-ms="69319" started-at="2019-05-06T09:05:35Z" finished-at="2019-05-06T09:06:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15923" started-at="2019-02-16T19:31:31Z" finished-at="2019-02-16T19:31:47Z">
+    <test name="Default test" duration-ms="69319" started-at="2019-05-06T09:05:35Z" finished-at="2019-05-06T09:06:45Z">
       <class name="com.testcases.Projectlogin">
-        <test-method status="PASS" signature="Excelload()[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="Excelload" is-config="true" duration-ms="811" started-at="2019-02-17T01:01:30Z" finished-at="2019-02-17T01:01:31Z">
+        <test-method status="PASS" signature="Excelload()[pri:0, instance:com.testcases.Projectlogin@5622fdf]" name="Excelload" is-config="true" duration-ms="496" started-at="2019-05-06T09:05:35Z" finished-at="2019-05-06T09:05:35Z">
           <reporter-output>
             <line>
               <![CDATA[Test Is Start and trying to load every thing]]>
@@ -47,7 +41,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Excelload -->
-        <test-method status="PASS" signature="intialexecution()[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="intialexecution" is-config="true" duration-ms="6308" started-at="2019-02-17T01:01:31Z" finished-at="2019-02-17T01:01:37Z">
+        <test-method status="PASS" signature="intialexecution()[pri:0, instance:com.testcases.Projectlogin@5622fdf]" name="intialexecution" is-config="true" duration-ms="6468" started-at="2019-05-06T09:05:35Z" finished-at="2019-05-06T09:05:42Z">
           <reporter-output>
             <line>
               <![CDATA[Browser trying to start]]>
@@ -57,15 +51,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- intialexecution -->
-        <test-method status="PASS" signature="pageLogin()[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="pageLogin" duration-ms="2806" started-at="2019-02-17T01:01:37Z" finished-at="2019-02-17T01:01:40Z">
+        <test-method status="PASS" signature="pageLogin()[pri:0, instance:com.testcases.Projectlogin@5622fdf]" name="pageLogin" duration-ms="258" started-at="2019-05-06T09:05:42Z" finished-at="2019-05-06T09:05:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageLogin -->
-        <test-method status="PASS" signature="getscreenshot(org.testng.ITestResult)[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="getscreenshot" is-config="true" duration-ms="1050" started-at="2019-02-17T01:01:40Z" finished-at="2019-02-17T01:01:41Z">
+        <test-method status="PASS" signature="getscreenshot(org.testng.ITestResult)[pri:0, instance:com.testcases.Projectlogin@5622fdf]" name="getscreenshot" is-config="true" duration-ms="819" started-at="2019-05-06T09:05:42Z" finished-at="2019-05-06T09:05:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=pageLogin status=SUCCESS method=Projectlogin.pageLogin()[pri:0, instance:com.testcases.Projectlogin@2b98378d] output={null}]]]>
+                <![CDATA[[TestResult name=pageLogin status=SUCCESS method=Projectlogin.pageLogin()[pri:0, instance:com.testcases.Projectlogin@5622fdf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -78,15 +72,90 @@
             </line>
           </reporter-output>
         </test-method> <!-- getscreenshot -->
-        <test-method status="PASS" signature="Applyleave()[pri:1, instance:com.testcases.Projectlogin@2b98378d]" name="Applyleave" duration-ms="4791" started-at="2019-02-17T01:01:41Z" finished-at="2019-02-17T01:01:46Z">
+        <test-method status="FAIL" signature="creationofmanifest()[pri:1, instance:com.testcases.Projectlogin@5622fdf]" name="creationofmanifest" duration-ms="61029" started-at="2019-05-06T09:05:43Z" finished-at="2019-05-06T09:06:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-no-focus ag-cell-last-left-pinned ag-column-hover']"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9QSD73T', ip: '172.16.10.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\TT089\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64661}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: da9bb6d1b50c79de26473db4fc4dd40f
+*** Element info: {Using=xpath, value=//div[@class='ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-no-focus ag-cell-last-left-pinned ag-column-hover']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-no-focus ag-cell-last-left-pinned ag-column-hover']"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9QSD73T', ip: '172.16.10.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\TT089\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64661}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: da9bb6d1b50c79de26473db4fc4dd40f
+*** Element info: {Using=xpath, value=//div[@class='ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-no-focus ag-cell-last-left-pinned ag-column-hover']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.webpages.Loginpage.manifestcreation(Loginpage.java:44)
+at com.testcases.Projectlogin.creationofmanifest(Projectlogin.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Applyleave -->
-        <test-method status="PASS" signature="getscreenshot(org.testng.ITestResult)[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="getscreenshot" is-config="true" duration-ms="803" started-at="2019-02-17T01:01:46Z" finished-at="2019-02-17T01:01:47Z">
+        </test-method> <!-- creationofmanifest -->
+        <test-method status="PASS" signature="getscreenshot(org.testng.ITestResult)[pri:0, instance:com.testcases.Projectlogin@5622fdf]" name="getscreenshot" is-config="true" duration-ms="725" started-at="2019-05-06T09:06:44Z" finished-at="2019-05-06T09:06:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Applyleave status=SUCCESS method=Projectlogin.Applyleave()[pri:1, instance:com.testcases.Projectlogin@2b98378d] output={null}]]]>
+                <![CDATA[[TestResult name=creationofmanifest status=FAILURE method=Projectlogin.creationofmanifest()[pri:1, instance:com.testcases.Projectlogin@5622fdf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -99,16 +168,6 @@
             </line>
           </reporter-output>
         </test-method> <!-- getscreenshot -->
-        <test-method status="PASS" signature="EndExecution()[pri:0, instance:com.testcases.Projectlogin@2b98378d]" name="EndExecution" is-config="true" duration-ms="131" started-at="2019-02-17T01:01:47Z" finished-at="2019-02-17T01:01:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Trying to close window]]>
-            </line>
-            <line>
-              <![CDATA[Window is closed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- EndExecution -->
       </class> <!-- com.testcases.Projectlogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

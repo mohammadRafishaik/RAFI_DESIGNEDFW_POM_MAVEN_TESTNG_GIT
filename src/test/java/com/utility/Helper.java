@@ -15,18 +15,18 @@ public class Helper {
 	
 	public static String capturescreenshot(WebDriver driver) {
 		TakesScreenshot ts=(TakesScreenshot)driver;
-		String Screenshotpath=System.getProperty("user.dir") + "/Screenshots/HRM_Application_"+gettimestgamp()+".png";
+		String Screenshotpath=System.getProperty("user.dir") + "/Screenshots/Elevate_Application_"+gettimestamp()+".png";
 		File source=ts.getScreenshotAs(OutputType.FILE);
 		try {
 			FileHandler.copy(source, new File(Screenshotpath));
 		} catch (IOException e) {
-			System.out.println(" unable to take screenshot "+e.getMessage());
+			System.out.println("unable to take screenshot "+e.getMessage());
 		}
 		return Screenshotpath;
 		
 	}
 
-	public static String gettimestgamp() {
+	public static String gettimestamp() {
 		DateFormat datevalue=new SimpleDateFormat("MM_dd_yyyy_HH_mm_ss");
 		Date currentdateformet=new Date();
 		

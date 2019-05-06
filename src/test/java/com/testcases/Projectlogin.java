@@ -11,31 +11,27 @@ public class Projectlogin extends BaseClass
 {
 //	 WebDriver driver;
 
-	public Loginpage login;
+	public Loginpage web;
 @Test(priority=0)
-public void pageLogin() 
+public void pageLogin() throws InterruptedException 
 {
+	//timeconcern();
 
-	logger=	report.createTest("login hrm");
-	 login=PageFactory.initElements(driver, Loginpage.class);
-	//login.loginhrm("user03", "pass1234");
-	logger.info("Application login");
-	login.loginhrm(excel.getstringgetdata("Sheet1", 1, 0), excel.getstringgetdata("Sheet1", 1, 1));
-	logger.pass("Successfully open Leave Page");
+	logger=	report.createTest("login Elevate App");
+	web=PageFactory.initElements(driver, Loginpage.class);
+	logger.info("Elevate  login");
+	web.loginhrm(excel.getstringgetdata("Sheet1", 1, 0), excel.getstringgetdata("Sheet1", 1, 1));
+	logger.pass("Successfully open Elevate App");
 
+//	web.manifestcreation();
 }
 @Test(priority=1)
-	public void Applyleave() 
-	{
+	public void creationofmanifest() throws InterruptedException 
 	
-//////////Aply Leave Tab//////;
-	logger=	report.createTest("Apply leave with hrm application");
-	login.Leavepage();
-
-		logger.info("Apply leave functionality test is start");
-	logger.pass("Apply leave functionality will working fine");
-		
+	{
+	web.manifestcreation();
 	}
+
 	
 	
 	

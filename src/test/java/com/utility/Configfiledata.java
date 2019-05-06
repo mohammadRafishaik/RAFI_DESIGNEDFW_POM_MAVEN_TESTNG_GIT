@@ -29,7 +29,7 @@ public class Configfiledata {
 	}
 public String getweburl() {
 		
-	return	pro.getProperty("QAUrl");
+return	pro.getProperty("QAUrl");
 	
 }
 }
